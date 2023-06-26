@@ -1,0 +1,10 @@
+#~Ex ~P(x) |- Ax P(x) | venez tous, accourez
+
+1. ~Ex ~P(x)		pre
+2. {a
+3. 	{a ~P(a)	hip
+4.	Ex ~P(x)	Ei 3
+5.	@		~e 1,4}	
+6. P(a)			raa 3-5}
+7. Ax P(x)	Ai 2-6
+
