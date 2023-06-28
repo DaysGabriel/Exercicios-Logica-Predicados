@@ -1,0 +1,12 @@
+#¬Ax ¬P(x) |- Ex P(x)
+
+1. ~Ax ~P(x)		pre
+2. {~Ex P(x)		hip
+3. 	{a
+4.		{P(a)		hip
+5.		Ex P(x)		Ei 4
+6.		@		~e 2,5}
+7.	~P(a)			~i 4-6}
+8.   Ax ~P(x)			Ai 3-7
+9.  @				~e 1,8}
+10. Ex P(x)			raa 2-9
