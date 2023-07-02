@@ -1,0 +1,26 @@
+#Ax P(x) & Ax Q(x) |- Ax (P(x) & Q(x))
+
+#for some reason the following works :
+
+1. Ax P(x)                      pre
+2. Ax Q(x)                      pre
+
+3. {a 
+4.  P(a)                        Ae 1
+5.  Q (a)                       Ae 2
+6.  P(a) & Q(a)                 &i 4,5}
+
+7. Ax ( P(x) & Q(x) )           Ai 3-6
+
+#but the bellow doesn't :
+
+#Ax P(x) & Ax Q(x) |- Ax (P(x) & Q(x))
+
+1. Ax P(x)                      pre
+2. Ax Q(x)                      pre
+
+3. {a P(a)                      Ae 1
+4.  Q (a)                       Ae 2
+5.  P(a) & Q(a)                 &i 3,4}
+
+6. Ax ( P(x) & Q(x) )           Ai 3-5
