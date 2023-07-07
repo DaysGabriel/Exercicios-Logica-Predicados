@@ -1,0 +1,13 @@
+#∀x(P (x) → Q(x)) ⊢ (∀x¬Q(x)) → (∀x¬P (x))
+
+1. Ax(P (x) -> Q(x))			pre
+2. { Ax ~Q(x)				hip
+3. 	{a
+4.		{P(a)			hip
+5.		 P(a) -> Q(a)		Ae 1
+6. 		 Q(a)			->e 4,5
+7.		 ~Q(a)			Ae 2
+8.		 @			~e 6,7}
+9.	~P(a)				~i 4-8}
+10. Ax ~P(x)				Ai 3-9} 
+11. (Ax~Q(x)) -> (Ax~P (x))		->i 2-10
